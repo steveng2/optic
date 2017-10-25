@@ -1,0 +1,324 @@
+body {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  background: url('../images/glasses-bg.png') center center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: cadetblue;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav ul li {
+  display: inline;
+  background-color: cadetblue;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem 2rem;
+}
+
+nav img {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  height: 1.5rem;
+}
+
+.header h1 {
+}
+
+/*container div that holder div under it not the header or footer*/
+#container {
+  width: 960px;
+}
+
+/*h tags*/
+
+h1 {
+  display: inline-block;
+  position: relative;
+  left: 28.5rem;
+  top: 10rem;
+  background-color: white;
+  font-family: helvetica;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.icons-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#icons-holder {
+  padding: 2rem;
+  height: 10rem;
+}
+
+.img-resize {}
+
+.icons-items, img {
+  display: flex;
+}
+
+.icons-items .fix {
+  display: flex;
+}
+
+p.fix {
+  display: block;
+}
+
+/*text holder that holder text in place*/
+#text-holder {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.first-para {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.second-para {
+  width: 35%;
+}
+
+.logo {
+  background-image: url('../images/logo-white.png');
+  background-image: url('../images/logo-black.png');
+  height: 1.5rem;
+}
+
+footer .logo {
+  display: flex;
+  height: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+  background-color: azure;
+}
+
+footer{
+  background-color: azure;
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+}
+
+footer .container{
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1rem;
+}
+
+
+/*Tablet */
+@media screen and (max-width: 1024px) and  (min-width: 681px)  {
+  #container {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: flex-start;
+    background: url('../images/glasses-bg.png') center center;
+    background-size: cover;
+    height: 22rem;
+    padding-top: 1rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    margin-bottom: 5rem;
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  nav ul li {
+    display: inline;
+    background-color: cadetblue;
+    list-style-type: none;
+  }
+
+  h1 {
+    display: inline-block;
+    position: relative;
+    left: 28.5rem;
+    top: 8rem;
+    background-color: white;
+    font-family: helvetica;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    font-weight: bold;
+    padding: 0.75rem 4rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+  }
+
+body{
+    position: fixed;
+    margin-top: auto;
+    width: 100%;
+  }
+  }
+/*phone*/
+@media screen and (max-width: 535px) {
+  body{
+      position: fixed;
+      margin-top: auto;
+      width: 100%;
+    }
+    #container {
+      width: 100%;
+    }
+  header {
+    display: flex;
+    align-items: flex-start;
+    background: url('../images/glasses-bg.png') center center;
+    background-size: cover;
+    background-position: 20%;
+    height: 17rem;
+    padding-top: 1rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    margin-bottom: 5rem;
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  nav ul li {
+    display: none;
+    background-color: cadetblue;
+    list-style-type: none;
+  }
+  h1 {
+    display: inline-block;
+    position: relative;
+    left: 8.5rem;
+    top: 8rem;
+    background-color: white;
+    font-family: helvetica;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: bold;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-right: 9rem;
+}
+p {
+    font-family: helvetica;
+    font-size: 0.77rem;
+}
+
+
+
+#text-holder {
+  position: relative;
+  left: 60px;
+  display:  block;
+  margin-top: 8rem;
+  justify-content: center;
+}
+
+.first-para {
+  width: 35%;
+  /*margin-right: 5%;*/
+}
+
+.second-para {
+  width: 35%;
+}
+
+.icons-items, img p.fix {
+  position: relative;
+  left:  100px;
+  display: block;
+  width:  3.4rem;
+  height: 2.2rem;
+}
+
+.icons-items .fix {
+  display: block;
+}
+ img {
+  display: block;
+  height: 3rem;
+  width: 5rem;
+
+
+}
+
+
+}
